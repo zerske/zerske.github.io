@@ -1,0 +1,89 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700|Bad+Script|Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic|Ubuntu+Condensed|Roboto+Slab:400,100,700,300);
+/* line 3, ../sass/partials/_fonts.scss */
+.sans-serif {
+  font-family: "Ubuntu", sans-serif;
+}
+
+/* line 7, ../sass/partials/_fonts.scss */
+.sans-serif-condensed {
+  font-family: "Ubuntu Condensed", sans-serif;
+}
+
+/* line 11, ../sass/partials/_fonts.scss */
+.serif {
+  font-family: "Roboto Slab";
+}
+
+/* line 15, ../sass/partials/_fonts.scss */
+.script {
+  font-family: "Bad Script", cursive;
+}
+
+/* line 19, ../sass/partials/_fonts.scss */
+.mono {
+  font-family: "Ubuntu Mono";
+}
+
+/* line 23, ../sass/partials/_fonts.scss */
+html * {
+  font-family: "Ubuntu";
+  font-size: 1rem;
+}
+/* line 26, ../sass/partials/_fonts.scss */
+html * p {
+  line-height: 1.5rem;
+}
+
+/* line 4, ../sass/style.scss */
+body .inner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+/* line 9, ../sass/style.scss */
+body .splash {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+  background: #1abc9c;
+  padding: 7rem 0;
+}
+/* line 16, ../sass/style.scss */
+body .splash .logo {
+  margin: 0 auto;
+  padding: 0 1rem 4rem;
+  width: 400px;
+  height: 100px;
+}
+/* line 21, ../sass/style.scss */
+body .splash .logo span {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: url(../images/logos/aksig.png) no-repeat top;
+  background-size: 100% 100%;
+}
+/* line 32, ../sass/style.scss */
+body .nav {
+  list-style-type: none;
+}
+/* line 34, ../sass/style.scss */
+body .nav li {
+  display: inline;
+}
+/* line 36, ../sass/style.scss */
+body .nav li a {
+  text-decoration: none;
+}
+/* line 38, ../sass/style.scss */
+body .nav li a:link, body .nav li a:visited {
+  color: #ecf0f1;
+}
+/* line 41, ../sass/style.scss */
+body .nav li a:hover, body .nav li a:active {
+  color: #3498db;
+}
